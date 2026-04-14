@@ -1,0 +1,171 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "chapter": "Alkane",
+      "type": "multiple_choice",
+      "question": "Công thức chung của alkan là?",
+      "options": ["$C_nH_{2n+2}$", "$C_nH_{2n}$", "$C_nH_{2n-2}$", "$C_6H_6$"],
+      "answer": 0,
+      "difficulty": "easy"
+    },
+    {
+      "id": "q2",
+      "chapter": "Alkane",
+      "type": "true_false",
+      "question": "Alkan có tính no.",
+      "answer": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "q3",
+      "chapter": "Alkene",
+      "type": "multiple_choice",
+      "question": "Công thức của ethene là?",
+      "options": ["$C_2H_6$", "$C_2H_4$", "$C_2H_2$", "$C_3H_8$"],
+      "answer": 1,
+      "difficulty": "medium"
+    },
+    {
+      "id": "q4",
+      "chapter": "Alcohol",
+      "type": "essay",
+      "question": "Viết phương trình phản ứng của ethanol với axit sulfuric đặc nóng.",
+      "sample_answer": "$C_2H_5OH \\xrightarrow{H_2SO_4} C_2H_4 + H_2O$",
+      "difficulty": "hard"
+    },
+    {
+      "id": "q5",
+      "chapter": "Carboxylic Acid",
+      "type": "multiple_choice",
+      "question": "Axit nào sau đây là axit carboxylic?",
+      "options": ["$CH_3COOH$", "$C_6H_5OH$", "$CH_3OH$", "$CH_3CHO$"],
+      "answer": 0,
+      "difficulty": "medium"
+    },
+    {
+      "id": "q6",
+      "chapter": "Alkane",
+      "type": "multiple_choice",
+      "question": "Số đồng phân của C4H10 là?",
+      "options": ["1", "2", "3", "4"],
+      "answer": 1,
+      "difficulty": "medium"
+    },
+    {
+      "id": "q7",
+      "chapter": "Alkene",
+      "type": "true_false",
+      "question": "Alken có liên kết đôi C=C.",
+      "answer": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "q8",
+      "chapter": "Phenol",
+      "type": "multiple_choice",
+      "question": "Công thức của phenol là?",
+      "options": ["$C_6H_5OH$", "$C_6H_6$", "$C_6H_5CHO$", "$C_6H_5COOH$"],
+      "answer": 0,
+      "difficulty": "easy"
+    },
+    {
+      "id": "q9",
+      "chapter": "Aldehyde",
+      "type": "essay",
+      "question": "Viết phương trình oxi hóa của acetaldehyde.",
+      "sample_answer": "$CH_3CHO + [O] \\rightarrow CH_3COOH$",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q11",
+      "chapter": "Halogen Derivatives",
+      "type": "multiple_choice",
+      "question": "Hợp chất alkyl halogen có công thức?",
+      "options": ["$R-X$", "$R-OH$", "$R-CHO$", "$R-COOH$"],
+      "answer": 0,
+      "difficulty": "easy"
+    },
+    {
+      "id": "q12",
+      "chapter": "Arene",
+      "type": "true_false",
+      "question": "Benzen có công thức C6H6.",
+      "answer": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "q13",
+      "chapter": "Alcohol",
+      "type": "essay",
+      "question": "Viết phương trình phản ứng thế của methanol với HCl.",
+      "sample_answer": "$CH_3OH + HCl \\rightarrow CH_3Cl + H_2O$",
+      "difficulty": "medium"
+    },
+    {
+      "id": "q14",
+      "chapter": "Carboxylic Acid",
+      "type": "multiple_choice",
+      "question": "Axit formic có công thức?",
+      "options": ["$HCOOH$", "$CH_3COOH$", "$C_6H_5COOH$", "$CH_3CH_2COOH$"],
+      "answer": 0,
+      "difficulty": "medium"
+    }
+  ],
+  "users": {
+    "user1": {
+      "profile": {
+        "name": "Nguyen Van A",
+        "email": "a@example.com"
+      },
+      "progress": {
+        "Alkane": 85,
+        "Alkene": 70,
+        "Alcohol": 60,
+        "Carboxylic Acid": 40
+      },
+      "history": [
+        {
+          "testId": "test1",
+          "type": "specialized",
+          "chapter": "Alkane",
+          "score": 8.5,
+          "date": "2026-04-14",
+          "timeSpent": 45
+        },
+        {
+          "testId": "test2",
+          "type": "comprehensive",
+          "score": 7.2,
+          "date": "2026-04-13",
+          "timeSpent": 60
+        }
+      ],
+      "flowers": ["Hoa hồng", "Hoa hướng dương", "Hoa cẩm tú cầu"],
+      "recommendations": [
+        "Ôn lại phản ứng thế của Alkane",
+        "Luyện tập về Carboxylic Acid"
+      ]
+    }
+  },
+  "tests": {
+    "specialized_alkane": {
+      "title": "Đề ôn tập chuyên đề Alkane",
+      "questions": ["q1", "q2"],
+      "structure": {
+        "multiple_choice": 40,
+        "true_false": 4,
+        "essay": 4
+      }
+    },
+    "comprehensive": {
+      "title": "Đề ôn tập tổng hợp Kỳ 2",
+      "questions": ["q1", "q3", "q5"],
+      "structure": {
+        "multiple_choice": 40,
+        "true_false": 4,
+        "essay": 4
+      }
+    }
+  }
+}
